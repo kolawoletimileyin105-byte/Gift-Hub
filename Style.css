@@ -2,13 +2,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: black;
+    background-color: #16001f;
     color: white;
     line-height: 1.6;
 }
 
 header {
-    background-color: black;
+    background-color: #250033;
     color: white;
     padding: 40px 20px;
     text-align: center;
@@ -23,17 +23,19 @@ section {
 h1 {
     font-size: 45px;
     margin-bottom: 20px;
+    color: #ff66c4;
 }
 
 h2 {
     font-size: 32px;
     margin-bottom: 20px;
+    color: #c77dff;
 }
 
 a {
     display: inline-block;
     color: white;
-    background-color: black;
+    background-color: #8e44ad;
     padding: 10px 20px;
     margin: 10px 0;
     text-decoration: none;
@@ -41,7 +43,7 @@ a {
 }
 
 a:hover {
-    background-color: #333;
+    background-color: #ff4db8;
 }
 
 input,
@@ -52,10 +54,12 @@ textarea {
     margin: 5px 0;
     font-size: 16px;
     box-sizing: border-box;
+    border: 2px solid #c77dff;
+    border-radius: 5px;
 }
 
 button {
-    background-color: black;
+    background-color: #ff4db8;
     color: white;
     padding: 12px 25px;
     border: none;
@@ -65,11 +69,11 @@ button {
 }
 
 button:hover {
-    background-color: #333;
+    background-color: #8e44ad;
 }
 
 footer {
-    background-color: black;
+    background-color: #250033;
     color: white;
     text-align: center;
     padding: 20px;
